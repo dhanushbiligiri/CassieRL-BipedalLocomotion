@@ -1,6 +1,6 @@
 # CassieRL-Bipedal Locomotion
 
-A small, modular library that contains some implementations of continuous reinforcement learning algorithms. Fully compatible with OpenAI gym.
+A small, modular library that contains some implementations of PPO. Fully compatible with OpenAI gym.
 
 Original repository: https://github.com/osudrl/apex
 
@@ -87,32 +87,12 @@ Run ```$ tensorboard --logdir logs/``` then navigate to ```http://localhost:6006
 
 ## Algorithms:
 #### Currently implemented:
-* Parallelism with [Ray](https://github.com/ray-project/ray)
-* [GAE](https://arxiv.org/abs/1506.02438)/TD(lambda) estimators
 * [PPO](https://arxiv.org/abs/1707.06347), VPG with ratio objective and with log likelihood objective
-* [TD3](https://arxiv.org/abs/1802.09477) with [Parameter Noise Exploration](https://arxiv.org/abs/1706.01905)
-* [DDPG](https://arxiv.org/abs/1509.02971)
-* [RDPG](https://arxiv.org/abs/1512.04455)
-* [ARS](https://arxiv.org/abs/1803.07055)
 * Entropy based exploration bonus
 * advantage centering (observation normalization WIP)
 
 #### To be implemented long term:
-* [SAC](https://arxiv.org/abs/1801.01290)
-* [GPO](https://arxiv.org/abs/1711.01012)
-* [NAF](https://arxiv.org/abs/1603.00748)
-* [SVG](https://arxiv.org/abs/1510.09142)
-* [I2A](https://arxiv.org/abs/1707.06203)
-* [PGPE](http://ieeexplore.ieee.org/document/5708821/?reload=true)
-* [Value Distribution](https://arxiv.org/pdf/1707.06887.pdf)
-* Oracle methods (e.g. [GPS](https://arxiv.org/abs/1610.00529))
 * CUDA support (should be trivial but I don't have a GPU to test on currently)
-
-#### Maybe implemented in future:
-
-* [DXNN](https://arxiv.org/abs/1008.2412)
-* [ACER](https://arxiv.org/abs/1611.01224) and other off-policy methods
-* Model-based methods
 
 ## Acknowledgements
 
