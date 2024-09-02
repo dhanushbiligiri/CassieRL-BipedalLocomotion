@@ -1,4 +1,4 @@
-# Cassie_mujoco_RL
+# CassieRL-Bipedal Locomotion
 
 A small, modular library that contains some implementations of continuous reinforcement learning algorithms. Fully compatible with OpenAI gym.
 
