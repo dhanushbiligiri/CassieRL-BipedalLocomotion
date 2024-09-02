@@ -4,9 +4,9 @@ A small, modular library that contains some implementations of continuous reinfo
 
 Original repository: https://github.com/osudrl/apex
 
-<img src="results/exp10000epochs.webm" alt="running1"/>
-<img src="results/IMG_1228.MOV" alt="running2"/>
-<img src="results/newexp10000epochs.webm" alt="running3"/>
+<img src="results/IMG_1228-ezgif.com-video-to-gif-converter (1).gif" alt="running1"/>
+<img src="results/exp10000epochs-ezgif.com-crop.gif" alt="running2"/>
+<img src="results/newexp10000epochs-ezgif.com-crop.gif" alt="running3"/>
 
 ## Environment
 
