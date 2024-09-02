@@ -92,7 +92,7 @@ Run ```$ tensorboard --logdir logs/``` then navigate to ```http://localhost:6006
 * advantage centering (observation normalization WIP)
 
 #### To be implemented long term:
-* CUDA support (should be trivial but I don't have a GPU to test on currently)
+* CUDA support
 
 ## Acknowledgements
 
