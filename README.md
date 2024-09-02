@@ -93,7 +93,3 @@ Run ```$ tensorboard --logdir logs/``` then navigate to ```http://localhost:6006
 
 #### To be implemented long term:
 * CUDA support
-
-## Acknowledgements
-
-Thanks to @ikostrikov's whose great implementations were used for debugging. Also thanks to @rll for rllab, which inspired a lot of the high level interface and logging for this library, and to @OpenAI for the original PPO tensorflow implementation. Thanks to @sfujim for the clean implementations of TD3 and DDPG in PyTorch. Thanks @modestyachts for the easy to understand ARS implementation.
